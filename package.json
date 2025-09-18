@@ -1,0 +1,24 @@
+{
+  "name": "pokeapi-proxy",
+  "version": "1.0.0",
+  "description": "Small Express server that proxies the PokéAPI and allows filtering by name",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [
+    "pokeapi",
+    "express",
+    "node"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "node-fetch": "^2.6.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
